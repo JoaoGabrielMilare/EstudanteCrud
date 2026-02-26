@@ -14,7 +14,7 @@ public class EstudanteModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "NOME_COMPLETO", nullable = false, length = 100)
+    @Column(name = "NOME_COMPLETO")
     private String nome;
     private String email;
 
