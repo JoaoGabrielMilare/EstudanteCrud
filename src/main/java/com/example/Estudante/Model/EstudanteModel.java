@@ -16,6 +16,8 @@ public class EstudanteModel {
 
     @Column(name = "NOME_COMPLETO")
     private String nome;
+
+    @Column(name = "EMAIL_ALUNO")
     private String email;
 
     @Column(name = "IDADE_ALUNO")
